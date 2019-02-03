@@ -1,0 +1,43 @@
+
+#skip a
+{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
+
+nav ul{
+  background-color: darkblue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+li{
+	display:inline;
+  padding:10px;
+	color: black;
+}
+
+
+nav a{
+  text-decoration: none;
+  color:grey;
+
+}
+
+a.current{
+  text-transform: uppercase;
+  color:white;
+  font-weight: bold;
+}
