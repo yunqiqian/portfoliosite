@@ -4,18 +4,30 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <title>About</title>
   </head>
   <body>
-    <div id="skip"><a href="#content">Skip to Main Content</a></div>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="current">About</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="portfolio_01.html">Project Catcha</a></li>
-        <li><a href="portfolio_02.html">Project Government Redesign</a></li>
-      </ul>
-    </nav>
+    <header>
+      <div id="skip"><a href="#content">Skip to Main Content</a></div>
+      <div class="header-container">
+	      <a  href="index.html"><img class="logo" src="images/branding.png" alt="personal logo" ></a>
+        <nav class="main-menu">
+          <div class="dropdown-wrapper menu-button">
+            <a class="menu-button" href="index.html">About</a>
+            <div class="drop-menu fade-in effect">
+              <a class="menu-button" href="#portfolio">Recent Works</a>
+              <a class="menu-button" href="#professional">Experience</a>
+              <a class="menu-button" href="#contact">Contact</a>
+  					</div>
+  				</div>
+        	<a class="menu-button" href="gallery.html">Gallery</a>
+        	<a class="menu-button" href="portfolio_01.html">Project Catcha</a>
+        	<a class="menu-button" href="portfolio_02.html">IA Evaluation</a>
+  			</nav>
+			</div>
+    </header>
+
     <h1>Hi! I'm Yunqi</h1>
     <h2>UX Designer &amp; Researcher</h2>
     <p>I'm a passionate UI/UX designer who combines the professional experience in web design and the academic background in user-centered research. I have experience in driving high engagement rate and sales increases through the creation of compelling wireframe template and interactive effects for users. I'm also a team player and an adept multi-masker who is able to work effectively on multiple projects under tight timeframe.</p>
@@ -46,7 +58,7 @@
       <h6>UI/UX Research | Consulting Contextual Inquiry</h6>
     </article>
 
-    <h3>02 Professional</h3>
+    <h3 id="professional">02 Professional</h3>
     <h4>My MY KNOWLEDGE LEVEL IN SOFTWARE</h4>
     <ol>
       <li>Adobe XD</li>
@@ -59,7 +71,7 @@
       <li>Python</li>
       <li>SQL</li>
     </ol>
-    <h3>03 Experience</h3>
+    <h3 id="experience">03 Experience</h3>
 
     <article class="experience">
       <p class="year">2014-2016</p>
@@ -81,7 +93,7 @@
     </article>
 
     <section>
-      <h5>CONTACT</h5>
+      <h5 id="contact">CONTACT</h5>
       <p>Feel free to email me or send me a message. <br>yuki.qian9@gmail.com</p>
     </section>
     <footer>
